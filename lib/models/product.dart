@@ -32,7 +32,7 @@ const products = <Product>[
         'Об\'єм 250 мл.',
     icon: Icons.coffee,
     color: Color(0xFFD7CCC8),
-    image: 'assets/images/cappuccino.png',
+    image: 'assets/images/cappuccino.jpg',
   ),
   Product(
     id: 2,
@@ -42,7 +42,7 @@ const products = <Product>[
     description: 'Багато молока, трохи еспресо. Об\'єм 300 мл.',
     icon: Icons.local_cafe,
     color: Color(0xFFFFE0B2),
-    image: 'assets/images/latte.png',
+    image: 'assets/images/latte.jpg',
   ),
   Product(
     id: 3,
@@ -52,7 +52,7 @@ const products = <Product>[
     description: 'Еспресо, розбавлений гарячою водою. Об\'єм 250 мл.',
     icon: Icons.free_breakfast,
     color: Color(0xFFBCAAA4),
-    image: 'assets/images/americano.png',
+    image: 'assets/images/americano.jpg',
   ),
   Product(
     id: 4,
@@ -62,7 +62,7 @@ const products = <Product>[
     description: 'Листкове тісто на вершковому маслі.',
     icon: Icons.bakery_dining,
     color: Color(0xFFFFECB3),
-    image: 'assets/images/croissant.png',
+    image: 'assets/images/croissant.jpg',
   ),
   Product(
     id: 5,
@@ -72,7 +72,7 @@ const products = <Product>[
     description: 'Класичний чізкейк Нью-Йорк із ягідним соусом.',
     icon: Icons.cake,
     color: Color(0xFFF8BBD0),
-    image: 'assets/images/cheesecake.png',
+    image: 'assets/images/cheesecake.jpg',
   ),
   Product(
     id: 6,
@@ -82,6 +82,6 @@ const products = <Product>[
     description: 'Зелений чай із жасмином. Об\'єм 400 мл.',
     icon: Icons.emoji_food_beverage,
     color: Color(0xFFC8E6C9),
-    image: 'assets/images/tea.png',
+    image: 'assets/images/tea.jpg',
   ),
 ];
