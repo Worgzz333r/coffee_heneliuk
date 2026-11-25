@@ -30,8 +30,19 @@ class _CartScreenState extends State<CartScreen> {
             )
           : ListView.builder(
               padding: const EdgeInsets.all(16),
-              itemCount: cart.items.length,
+              itemCount: cart.items.length + 1,
               itemBuilder: (context, index) {
+                if (index == cart.items.length) {
+                  return const Padding(
+                    padding: EdgeInsets.only(top: 12),
+                    child: Center(
+                      child: Text(
+                        '← свайп ліворуч видаляє товар',
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                    ),
+                  );
+                }
                 final item = cart.items[index];
                 return Dismissible(
                   key: ValueKey(item.product.id),
